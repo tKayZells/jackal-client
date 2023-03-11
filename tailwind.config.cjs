@@ -8,6 +8,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'signika' : ['Signika', 'serif'],
+      'merri' : ['Merriweather', 'serif'],
+      'mukta' : ['MuktaVaani', 'serif']
+    }
   },
   plugins: [],
 }
