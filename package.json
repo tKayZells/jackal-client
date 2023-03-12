@@ -3,7 +3,12 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "scripts": {
+  "engines": {
+		"node": ">=18.12.1 <=18.12.1",
+		"npm": ">=9.6.1 <=9.6.1"
+	},
+	"engineStrict": true,
+	"scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
