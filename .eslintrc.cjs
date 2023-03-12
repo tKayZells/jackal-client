@@ -39,6 +39,7 @@ module.exports = {
 				'plugin:prettier/recommended',
 				//'plugin:testing-library/react',
 				//'plugin:jest-dom/recommended',
+				'prettier'
 			],
 
 			rules: {

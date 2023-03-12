@@ -8,8 +8,9 @@ function App() {
 
 	return (
 		<div className="App">
-			<div className="mx-2 flex bg-red-900 px-1 text-2xl drop-shadow hover:bg-amber-400">
+			<div className="bg-red-900  hover:bg-amber-400 mx-2 flex px-1 text-2xl drop-shadow">
 				<a href="https://vitejs.dev" target="_blank" rel="noreferrer">
+					{' '}
 					<img src="/vite.svg" className="logo" alt="Vite logo" />
 				</a>
 				<a href="https://reactjs.org" target="_blank" rel="noreferrer">
