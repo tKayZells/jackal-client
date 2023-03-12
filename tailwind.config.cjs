@@ -10,6 +10,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'signika' : ['Signika', 'serif'],
+      'merri' : ['Merriweather', 'serif'],
+      'mukta' : ['MuktaVaani', 'serif']
+    },
     colors: {
       white: colors.white,
       black: colors.black,
